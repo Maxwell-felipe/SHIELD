@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta Criminal</title>
+  <link rel="stylesheet" href="data.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Consulta de Ficha Criminal</h2>
+
+    <label for="nome">Nome completo:</label>
+    <input type="text" id="nome" placeholder="Ex: João da Silva" required>
+
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" placeholder="Ex: 123.456.789-00" required>
+
+    <button onclick="enviarDados()">Pesquisar</button>
+  </div>
+
+ <script>
+  function enviarDados() {
+    const nome = encodeURIComponent(document.getElementById('nome').value);
+    const cpf = encodeURIComponent(document.getElementById('cpf').value);
+    window.location.href = `ficha.html?nome=${nome}&cpf=${cpf}`;
+  }
+</script>
+
+</body>
+</html>
