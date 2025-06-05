@@ -10,7 +10,9 @@ function gerarFicha() {
   const crimes = [
     "Assalto à mão armada", "Tráfico de drogas", "Homicídio",
     "Furto qualificado", "Extorsão", "Lavagem de dinheiro",
-    "Sequestro", "Contrabando", "Invasão de sistema", "Falsificação de documentos"
+    "Sequestro", "Contrabando", "Invasão de sistema", "Falsificação de documentos", "Sequestro e cárcere privado", "tortura", "atentado a democracia", "rceptação", "estelionato","corrupção ativa",
+    "corrupção passiva","peculato","ato terrorista",
+
   ];
 
   const status = ["Foragido", "Preso", "Morto", "Em investigação", "Procurado internacionalmente"];
