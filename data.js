@@ -11,7 +11,7 @@ function gerarFicha() {
     "Assalto à mão armada", "Tráfico de drogas", "Homicídio",
     "Furto qualificado", "Extorsão", "Lavagem de dinheiro",
     "Sequestro", "Contrabando", "Invasão de sistema", "Falsificação de documentos", "Sequestro e cárcere privado", "tortura", "atentado a democracia", "rceptação", "estelionato","corrupção ativa",
-    "corrupção passiva","peculato","ato terrorista",
+    "corrupção passiva","peculato","ato terrorista", "falsidade ideologica"
 
   ];
 
@@ -20,7 +20,7 @@ function gerarFicha() {
   const locais = [
     "São Paulo - SP", "Rio de Janeiro - RJ", "Recife - PE", "Curitiba - PR",
     "Porto Alegre - RS", "Salvador - BA", "Fortaleza - CE", "Manaus - AM",
-    "Brasília - DF", "Belo Horizonte - MG"
+    "Brasília - DF", "Belo Horizonte - MG", "xique-xique - BA"
   ];
 
   const fotos = [
@@ -31,7 +31,7 @@ function gerarFicha() {
     "pessoa 5.jpg",
     "pessoa 6.jpg",
     "pessoa 7.jpg",
-    "pessoa .8jpg",
+    "pessoa 8.jpg",
   ];
 
   // Dados aleatórios
