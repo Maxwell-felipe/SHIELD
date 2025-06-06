@@ -11,7 +11,7 @@ function gerarFicha() {
     "Assalto à mão armada", "Tráfico de drogas", "Homicídio",
     "Furto qualificado", "Extorsão", "Lavagem de dinheiro",
     "Sequestro", "Contrabando", "Invasão de sistema", "Falsificação de documentos", "Sequestro e cárcere privado", "tortura", "atentado a democracia", "rceptação", "estelionato","corrupção ativa",
-    "corrupção passiva","peculato","ato terrorista", "falsidade ideologica"
+    "corrupção passiva","peculato","ato terrorista", "falsidade ideologica","incendio criminoso",
 
   ];
 
